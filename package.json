@@ -7,6 +7,10 @@
   "files": [
     "build"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jwandekoken/test-react-component-library.git"
+  },
   "scripts": {
     "build": "rollup -c",
     "prepublishOnly": "npm run build"
